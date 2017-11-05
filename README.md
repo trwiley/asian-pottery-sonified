@@ -2,7 +2,7 @@
 
 This is a project being done as part of my INFO-I 310 Multimedia Arts and Technology class at Indiana University South Bend. What will be the end-product of this is a Max 7 Patch that reads in some of the datafields from the  dataset and produces a sound that fluctuates based on the data. 
 
-Eventually, I would also like to implement a similar idea in technologies using open-source tools. 
+Eventually, I would also like to implement a similar idea using open source tools. 
 
 ## CREDITS/ACKNOWLEDGEMENTS
 
@@ -12,4 +12,4 @@ Peter Grave. "Asian Stoneware Jars Data". (2013) From Asian Stoneware Jars. Edit
 
 ### Other thanks:
 
-* Open Context  
+* Open Context for hosting the data  
