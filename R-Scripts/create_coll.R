@@ -11,6 +11,8 @@ cerium <- `ICP - Ce`
 sodium <- `ICP - Na`
 potassium <- `ICP - K`
 calcium <- `ICP - Ca`
+year <- `Early BCE/CE`
+
 
 detach(asian_pottery)
 
@@ -24,7 +26,7 @@ numbers <- c(0:number_length)
 
 
 #create the vector needed for the coll value list.
-icp_list <- paste(barium, cerium, sodium, potassium, calcium, sep = " ")
+icp_list <- paste(barium, cerium, sodium, potassium, calcium, year, sep = " ")
 
 #attach a semicolon at the end of the coll value list.
 icp_semicol <- paste(icp_list, ";", sep = "")
