@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 26.0, 85.0, 1029.0, 591.0 ],
+		"rect" : [ 34.0, 77.0, 1029.0, 591.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -147,7 +147,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 863.0, 612.0, 50.5, 22.0 ],
-					"presentation_rect" : [ 336.5, 295.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -166,7 +165,6 @@
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 632.0, 960.0, 22.0, 140.0 ],
-					"presentation_rect" : [ 634.5, 960.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -179,7 +177,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 749.0, 1035.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 749.0, 1035.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "*~"
 				}
@@ -193,7 +190,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 735.0, 991.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 735.0, 994.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "*~"
 				}
@@ -207,7 +203,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 874.0, 953.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 874.0, 952.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "*~"
 				}
@@ -221,7 +216,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 777.0, 921.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 777.0, 921.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "*~"
 				}
@@ -248,7 +242,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 943.0, 818.0, 39.0, 22.0 ],
-					"presentation_rect" : [ 941.0, 818.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "saw~"
 				}
@@ -262,7 +255,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 892.0, 813.0, 39.0, 22.0 ],
-					"presentation_rect" : [ 893.5, 817.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "saw~"
 				}
@@ -276,7 +268,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 848.5, 813.0, 39.0, 22.0 ],
-					"presentation_rect" : [ 848.5, 813.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "saw~"
 				}
@@ -290,7 +281,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 801.5, 813.0, 39.0, 22.0 ],
-					"presentation_rect" : [ 801.5, 815.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "saw~"
 				}
@@ -304,7 +294,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 754.5, 813.0, 39.0, 22.0 ],
-					"presentation_rect" : [ 754.5, 813.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "saw~"
 				}
@@ -318,7 +307,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 707.5, 813.0, 39.0, 22.0 ],
-					"presentation_rect" : [ 707.5, 813.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "saw~"
 				}
@@ -512,7 +500,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 632.0, 502.0, 103.0, 117.0 ],
+					"patching_rect" : [ 632.0, 502.0, 107.0, 117.0 ],
 					"style" : "",
 					"text" : "generate a sawtooth wave \nbased on Ba, set its amplitude based on Ce, and set the cutoff freq. based on \nNa."
 				}
@@ -1079,7 +1067,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 350.0, 472.0, 407.75, 289.0 ],
+					"patching_rect" : [ 361.125, 482.5, 407.75, 289.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -1588,14 +1576,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "asian_pottery_short.txt",
-				"bootpath" : "~/OneDrive/Documents/asian-pottery-sonified",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "dialGold",
