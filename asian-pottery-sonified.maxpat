@@ -9,7 +9,8 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 26.0, 85.0, 663.0, 591.0 ],
+		"rect" : [ 34.0, 77.0, 1029.0, 591.0 ],
+		"bgcolor" : [ 0.332728, 0.330493, 0.315602, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,13 +39,26 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 558.0, 201.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Bookman Old Style",
 					"fontsize" : 18.0,
 					"id" : "obj-99",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1360.0, 1438.0, 246.0, 28.0 ],
+					"patching_rect" : [ 1008.5, 1225.0, 246.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 349.25, 241.0, 246.0, 28.0 ],
 					"style" : "",
@@ -83,10 +97,14 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.326117, 0.358336, 0.307924, 1.0 ],
+					"curvecolor" : [ 0.654902, 0.572549, 0.376471, 1.0 ],
 					"fontface" : 0,
+					"hcurvecolor" : [ 0.836576, 0.903148, 0.643029, 1.0 ],
 					"id" : "obj-90",
 					"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
 					"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
+					"markercolor" : [ 0.375889, 0.380647, 0.363084, 1.0 ],
 					"maxclass" : "filtergraph~",
 					"nfilters" : 1,
 					"numinlets" : 8,
@@ -96,8 +114,9 @@
 					"patching_rect" : [ 991.0, 525.0, 360.0, 155.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 240.0, 52.0, 395.0, 183.0 ],
-					"setfilter" : [ 0, 3, 1, 0, 0, 1638.0, 1.0, 0.9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-					"style" : ""
+					"setfilter" : [ 0, 3, 1, 0, 0, 1500.0, 1.0, 0.9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"style" : "",
+					"textcolor" : [ 0.710412, 0.673158, 0.582831, 1.0 ]
 				}
 
 			}
@@ -212,11 +231,12 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.326117, 0.358336, 0.307924, 1.0 ],
 					"bufsize" : 256,
 					"calccount" : 2,
 					"drawstyle" : 1,
-					"fgcolor" : [ 0.905882, 0.909804, 0.917647, 1.0 ],
-					"gridcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
+					"fgcolor" : [ 0.710412, 0.673158, 0.582831, 1.0 ],
+					"gridcolor" : [ 0.498039, 0.462745, 0.376471, 1.0 ],
 					"id" : "obj-85",
 					"maxclass" : "scope~",
 					"numinlets" : 2,
@@ -511,6 +531,9 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.326117, 0.358336, 0.307924, 1.0 ],
+					"color" : [ 0.710412, 0.673158, 0.582831, 1.0 ],
+					"elementcolor" : [ 0.498039, 0.462745, 0.376471, 1.0 ],
 					"id" : "obj-8",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
@@ -524,7 +547,9 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.282353, 0.309804, 0.266667, 1.0 ],
 					"id" : "obj-7",
+					"knobcolor" : [ 0.710412, 0.673158, 0.582831, 1.0 ],
 					"maxclass" : "gain~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -533,6 +558,7 @@
 					"patching_rect" : [ 496.5, 810.0, 22.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 52.0, 222.0, 32.0 ],
+					"stripecolor" : [ 0.498039, 0.462745, 0.376471, 1.0 ],
 					"style" : ""
 				}
 
@@ -570,7 +596,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 555.0, 238.0, 161.0, 48.0 ],
+					"patching_rect" : [ 649.0, 179.0, 161.0, 48.0 ],
 					"style" : "",
 					"text" : "Send the potassium value\noff to the panel that plays the sound conditionally. "
 				}
@@ -616,7 +642,9 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.282353, 0.309804, 0.266667, 1.0 ],
 					"id" : "obj-61",
+					"knobcolor" : [ 0.710412, 0.673158, 0.582831, 1.0 ],
 					"maxclass" : "gain~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -625,6 +653,7 @@
 					"patching_rect" : [ 69.25, 981.0, 22.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 349.25, 281.0, 285.75, 31.0 ],
+					"stripecolor" : [ 0.498039, 0.462745, 0.376471, 1.0 ],
 					"style" : ""
 				}
 
@@ -971,9 +1000,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 506.5, 238.0, 35.0, 22.0 ],
+					"patching_rect" : [ 506.5, 238.0, 153.0, 22.0 ],
 					"style" : "",
-					"text" : "read"
+					"text" : "read asian.pottery-short.txt"
 				}
 
 			}
@@ -1035,6 +1064,8 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.326117, 0.358336, 0.307924, 1.0 ],
+					"checkedcolor" : [ 0.710412, 0.673158, 0.582831, 1.0 ],
 					"id" : "obj-48",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -1044,7 +1075,8 @@
 					"patching_rect" : [ 430.5, 105.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 133.0, 102.0, 102.0 ],
-					"style" : ""
+					"style" : "",
+					"uncheckedcolor" : [ 0.498039, 0.462745, 0.376471, 1.0 ]
 				}
 
 			}
@@ -1244,7 +1276,7 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"background" : 1,
-					"grad1" : [ 0.737255, 0.709804, 0.411765, 1.0 ],
+					"grad1" : [ 0.448693, 0.454459, 0.433178, 1.0 ],
 					"grad2" : [ 0.737255, 0.709804, 0.411765, 1.0 ],
 					"id" : "obj-76",
 					"maxclass" : "panel",
@@ -1572,6 +1604,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -1755,8 +1794,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1774,8 +1813,8 @@
 , 			{
 				"name" : "scope~001",
 				"default" : 				{
-					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
