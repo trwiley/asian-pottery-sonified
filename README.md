@@ -1,6 +1,6 @@
 # Sonification of Asian Stoneware Jars Data
 
-This is a project being done as part of my INFO-I 310 Multimedia Arts and Technology class at Indiana University South Bend. What will be the end-product of this is a Max 7 Patch that reads in some of the datafields from the  dataset and produces a sound that fluctuates based on the data. 
+This is a project that was done as part of my INFO-I 310 Multimedia Arts and Technology class at Indiana University South Bend. It is a Max/MSP patch that reads in some of the datafields from an archaeological dataset and produces a sound that fluctuates based on the data. 
 
 Eventually, I would also like to implement a similar idea using open source tools. 
 
